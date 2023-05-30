@@ -1,0 +1,244 @@
+Welcome to Alberta Hospital (AH) Managment system 
+Select from the following options, or select 3 to stop: 
+1 - 	Doctors
+2 - 	Patients
+3 -	Exit Program 
+>>> 1
+
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 1
+Id   Name                   Speciality      Timing          Qualification   Room Number
+
+21   Dr.Gody                ENT             5am-11aM        MBBS,MD         17
+       
+32   Dr.Vikram              Physician       10pm-3am        MBBS,MD         45
+       
+17   Dr.Amy                 Surgeon         8pm-2am         BDM             8
+        
+33   Dr.David               Artho           10am-4pm        MBBS,MS         40
+       
+123  Dr. Ross               Headackes       8pm-10am        MST             102
+      
+66   Dr. Mike               Heart           9am-5pm         MS              2         
+
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 2
+
+Enter the doctor Id: 66
+
+Id   Name                   Speciality      Timing          Qualification   Room Number
+
+66   Dr. Mike               Heart           9am-5pm         MS              2         
+
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 3
+
+Enter the doctor name: Dr.David
+
+Id   Name                   Speciality      Timing          Qualification   Room Number
+
+33   Dr.David               Artho           10am-4pm        MBBS,MS         40
+       
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 2
+
+Enter the doctor Id: 20
+Can't find the doctor with the same ID on the system
+
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 3
+
+Enter the doctor name: Dr. Tom
+Can't find the doctor with the same name on the system
+
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 4
+
+Enter the doctor’s ID: 62
+Enter the doctor’s name: Dr. Smith
+Enter the doctor’s specility: Heart
+Enter the doctor’s timing (e.g., 7am-10pm): 6am-11am
+Enter the doctor’s qualification: PHD
+Enter the doctor’s room number: 12
+
+Doctor whose ID is 62 has been added
+
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 5
+
+Please enter the id of the doctor that you want to edit their information: 66
+Enter new Name: Dr. Mike kale
+Enter new Specilist in: Heart
+Enter new Timing: 9am-3pm
+Enter new Qualification: MS
+Enter new Room number: 2
+
+Doctor whose ID is 66 has been edited
+
+Doctors Menu:
+1 - Display Doctors list
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 6
+
+Welcome to Alberta Hospital (AH) Managment system 
+Select from the following options, or select 0 to stop: 
+1 - 	Doctors
+2 - 	Patients
+3 -	Exit Program
+>>> 2
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 1
+ID   Name                   Disease         Gender          Age
+           
+12   Pankaj                 Cancer          Male            30
+            
+13   Janina                 Cold            Female          23
+            
+14   Alonna                 Malaria         Female          45
+            
+15   Ravi                   Diabetes        Male            65             
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 2
+
+Enter the Patient Id: 16
+Can't find the Patient with the same id on the system
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 2
+
+Enter the Patient Id: 15
+
+ID   Name		    Disease	    Gender	    Age
+
+15   Ravi           Diabetes    Male        65             
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 3
+
+Enter Patient id: 16
+Enter Patient name: Mary
+Enter Patient disease: Cancer
+Enter Patient gender: Female
+Enter Patient age: 55
+
+Patient whose ID is 16 has been added.
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 4
+
+Please enter the id of the Patient that you want to edit their information: 13
+Enter new Name: Janina
+Enter new disease: Cold&Flue
+Enter new gender: Female
+Enter new age: 23
+
+Patient whose ID is 13 has been edited.
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 1
+
+ID   Name                   Disease         Gender          Age
+           
+12   Pankaj                 Cancer          Male            30
+            
+13   Janina                 Cold&Flue       Female          23             
+
+14   Alonna                 Malaria         Female          45
+            
+15   Ravi                   Diabetes        Male            65
+
+16   Mary		    		Cancer          Female          55
+            
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 5
+
+Welcome to Alberta Hospital (AH) Managment system 
+Select from the following options, or select 0 to stop: 
+1 - 	Doctors
+2 - 	Patients
+3 -	Exit Program 
+>>> 3
+Thanks for using the program. Bye!

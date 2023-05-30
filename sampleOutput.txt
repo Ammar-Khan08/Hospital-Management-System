@@ -1,0 +1,243 @@
+Welcome to Alberta Hospital (AH) Management system
+Select from the following options or select 3 to stop:
+1 -      Doctors
+2 -      Patients
+3 - Exit Program
+>>> 1
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 1
+Id   Name                          Speciality     Timing         Qualification  Room Number
+------------------------------------------------------------------------------------------
+21   Dr.Gody                       ENT            5-11AM         MBBS,MD        17
+------------------------------------------------------------------------------------------
+32   Dr.Vikram                     Physician      10-3AM         MBBS,MD        45
+------------------------------------------------------------------------------------------
+17   Dr.Amy                        Surgeon        8-2AM          BDM            8
+------------------------------------------------------------------------------------------
+33   Dr.David                      Artho          10-4PM         MBBS,MS        40
+------------------------------------------------------------------------------------------
+123  Dr. Ross                      Headackes      8-10am         Mst            102
+------------------------------------------------------------------------------------------
+66   Dr. Mike                      Heart          9am-5pm        MS             2
+------------------------------------------------------------------------------------------
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 2
+
+Enter the doctor's ID: 66
+ID   Name                          Speciality     Timing         Qualification  Room Number
+------------------------------------------------------------------------------------------
+66   Dr. Mike                      Heart          9am-5pm        MS             2
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 3
+
+Enter the doctor's name: Dr.David
+ID   Name                          Speciality     Timing         Qualification  Room Number
+------------------------------------------------------------------------------------------
+33   Dr.David                      Artho          10-4PM         MBBS,MS        40
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 2
+
+Enter the doctor's ID: 20
+Can't find the doctor with the same ID on the system
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 3
+
+Enter the doctor's name: Dr.Tom
+Can't find the doctor with the same name on the system
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 4
+
+Enter doctor ID: 62
+Enter doctor name: Dr. Smith
+Enter doctor specialization: Heart
+Enter doctor times (e.g., 7am-10pm): 6am-11am
+Enter doctor qualifications: PHD
+Enter doctor room number: 12
+
+Doctor whose ID is 62 has been added
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 5
+
+Enter the doctor's ID: 66
+Enter new name: Dr. Mike kale
+Enter new specialization: Heart
+Enter new times (e.g., 7am-10pm): 9am-3pm
+Enter new qualifications: MS
+Enter new room number: 2
+
+Doctor whose ID is 66 has been edited
+
+Doctors Menu:
+1 - Display list of doctors
+2 - Search for doctor by ID
+3 - Search for doctor by name
+4 - Add doctor
+5 - Edit doctor info
+6 - Back to the Main Menu
+>>> 6
+
+Welcome to Alberta Hospital (AH) Management system
+Select from the following options or select 3 to stop:
+1 -      Doctors
+2 -      Patients
+3 - Exit Program
+>>> 2
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 1
+ID   Name                          Disease             Gender    Age
+----------------------------------------------------------------------
+12   Pankaj                        Cancer              Male      30
+----------------------------------------------------------------------
+13   Sumit                         Cold                Male      23
+----------------------------------------------------------------------
+14   Alok                          Maleriya            Male      45
+----------------------------------------------------------------------
+15   Ravi                          Diabetes            Male      25
+----------------------------------------------------------------------
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 2
+
+Enter the patient's ID: 16
+Can't find the patient with the same ID on the system
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 2
+
+Enter the patient's ID: 15
+ID   Name                          Disease             Gender    Age
+----------------------------------------------------------------------
+15   Ravi                          Diabetes            Male      25
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 3
+
+Enter patient ID: 16
+Enter patient name: Mary
+Enter patient disease: Cancer
+Enter patient gender: Female
+Enter patient age: 55
+
+Patient whose ID is 16 has been added
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 4
+
+Enter the patient's ID: 13
+Enter new name: Janina
+Enter new disease: Cold&Flue
+Enter new gender: Female
+Enter new age: 23
+
+Patient whose ID is 13 has been edited
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 1
+ID   Name                          Disease             Gender    Age
+----------------------------------------------------------------------
+12   Pankaj                        Cancer              Male      30
+----------------------------------------------------------------------
+13   Janina                        Cold&Flue           Female    23
+----------------------------------------------------------------------
+14   Alok                          Maleriya            Male      45
+----------------------------------------------------------------------
+15   Ravi                          Diabetes            Male      25
+----------------------------------------------------------------------
+16   Mary                          Cancer              Female    55
+----------------------------------------------------------------------
+
+Patients Menu:
+1 - Display patients list
+2 - Search for patient by ID
+3 - Add patient
+4 - Edit patient info
+5 - Back to the Main Menu
+>>> 5
+
+Welcome to Alberta Hospital (AH) Management system
+Select from the following options or select 3 to stop:
+1 -      Doctors
+2 -      Patients
+3 - Exit Program
+>>> 3
+Thanks for using the program. Bye!
